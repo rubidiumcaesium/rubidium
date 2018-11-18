@@ -21,7 +21,7 @@ def check_prime(num):
 # Run the following code if the file is run at the command line
 if __name__ == "__main__":
   num = int(input("Enter a number: "))
-  if primeChecker(num):
+  if check_prime(num):
     print ("Is prime!")
   else:
     print ("Not a prime.")
